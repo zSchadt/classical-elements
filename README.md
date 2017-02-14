@@ -1,2 +1,2 @@
-# classical-elements
-SVG icon system of classical elements
+# Classical Elements
+An SVG icon system of classical elements
