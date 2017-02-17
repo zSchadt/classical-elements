@@ -5,4 +5,4 @@ An SVG icon system of classical elements
 - Wind
 - Fire
 - Water
-– Æther
+– Aether
