@@ -1,4 +1,26 @@
 <svg id="earth" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.93 250">
+
+  <defs>
+    <style>
+      @keyframes outline {
+      0% {stroke-dashoffset: 1000;}
+      50% {stroke-dashoffset: 0;}
+      100% {stroke-dashoffset: 1000;}
+      }
+      path {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        fill: rgb(58, 201, 77);
+        stroke: rgb(135, 100, 52);
+        stroke-width: 5;
+        pointer-events:all;
+      }
+      path {
+        animation: outline 10s linear infinite;
+      }
+    </style>
+  </defs>
+
   <title>Earth symbol</title>
   <path d="M276.94,0H9A9,9,0,0,0,1.22,13.46l134,232.06a9,9,0,0,0,15.54,0l134-232.06A9,9,0,0,0,276.94,0ZM107.18,137h89.5l-44.75,77.51ZM210.5,113H93.37L42.29,24.56H261.58Z" />
 </svg>

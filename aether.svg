@@ -1,4 +1,22 @@
 <svg id="aether" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+
+  <defs>
+    <style>
+      @keyframes rotate {
+      0% {transform: rotateY(0deg); fill: black;}
+      24% {fill: black;}
+      25% {fill: rgb(117, 0, 84);}
+      74% {fill: rgb(117, 0, 84);}
+      75% {fill: black;}
+      100% {transform: rotateY(360deg); fill:black;}
+      }
+      path {
+      animation: rotate 20s linear infinite;
+      transform-origin: 50% 50%;
+      }
+    </style>
+  </defs>
+
   <title>Aether symbol</title>
   <path d="M125,0A125,125,0,1,0,250,125,125,125,0,0,0,125,0Zm0,235c-52.47,0-95-49.25-95-110S72.53,15,125,15s95,49.25,95,110S177.47,235,125,235Z" />
 </svg>

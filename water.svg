@@ -1,4 +1,26 @@
 <svg id="water" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.93 250">
+
+  <defs>
+    <style>
+      @keyframes wave {
+      0% {stroke-dashoffset: 100;}
+      20% {stroke-dashoffset: 80;}
+      40% {stroke-dashoffset: 40;}
+      60% {stroke-dashoffset: 60;}
+      80% {stroke-dashoffset: 20;}
+      100% {stroke-dashoffset: 100;}
+      }
+      path {
+      animation: wave 10s infinite;
+      fill: rgb(81, 148, 255);
+      stroke-dasharray: 100;
+      stroke-dashoffset: 100;
+      stroke-width: 5;
+      stroke: blue;
+      }
+    </style>
+  </defs>
+
   <title>Water symbol</title>
   <path d="M1.22,13.46l134,232.06a9,9,0,0,0,15.54,0l134-232.06A9,9,0,0,0,276.94,0H9A9,9,0,0,0,1.22,13.46ZM261.58,24.56,151.93,214.47,42.29,24.56Z" />
 </svg>
